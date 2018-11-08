@@ -23,6 +23,15 @@ Add data-attributes `data-fvm-open` to the elements which supposed to open modal
 <div data-fvm-open>Action</div>
 ```
 
+
+Provide unique links as value for `data-fvm-open` attribute if needed. otherwise default will be used (https://www.fastave.com/):
+```html
+<!--with unique link-->
+<button type="button" data-fvm-open="https://www.fastave.com/#/INFOGRAPHIC?dealerID=MP13422&sku=18984">Action</button>
+<!--default link will be used-->
+<a href="#" data-fvm-open>Action</a>
+```
+
 ##### Enjoy FvModal.js!
 &nbsp;
 ## Options
